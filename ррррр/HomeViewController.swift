@@ -34,6 +34,11 @@ class HomeViewController: UIViewController {
         let city = cityTextField.text
         let job = jobTextField.text
         let relationship = relationshipTextField.text
-    
+        UserDefaults.standard.set(firstName, forKey:"firstName")
+        UserDefaults.standard.set(secondName, forKey:"secondName")
+        UserDefaults.standard.set(city, forKey:"city")
+        UserDefaults.standard.set(job, forKey:"job")
+        UserDefaults.standard.set(relationship, forKey:"relationship")
     }
+
 }

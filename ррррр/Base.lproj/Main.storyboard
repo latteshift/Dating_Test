@@ -96,8 +96,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="kBh-oi-q44"/>
                     <connections>
                         <outlet property="avatarView" destination="nGf-4R-QNY" id="KTd-wc-9KE"/>
+                        <outlet property="cityLabel" destination="8r3-OL-vvJ" id="tB6-3V-XEg"/>
+                        <outlet property="fullNameLabel" destination="oz9-6g-UaR" id="YTN-0D-0bv"/>
+                        <outlet property="jobLabel" destination="qBz-kI-PzP" id="J2E-zb-CWy"/>
+                        <outlet property="relationshipLabel" destination="yLY-vN-hKo" id="x0L-yY-3cQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -157,6 +162,7 @@
                                 </state>
                                 <connections>
                                     <action selector="handleSignUpButton:" destination="pmB-Ku-Wox" eventType="touchUpInside" id="bn6-1N-wZL"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="rp0-YX-aA3"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="google" translatesAutoresizingMaskIntoConstraints="NO" id="BfV-xE-lpA">
